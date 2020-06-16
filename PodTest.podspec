@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
          PodTest 是一个用于保存一些常用工具类的工具
   DESC
 
-  s.homepage     = "https://github.com/tiantianup/PodTest"
+  s.homepage     = "https://github.com/tiantianup/PodTest.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/tiantianup/PodTest", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/tiantianup/PodTest.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Base/*.{h,m}"
+  s.source_files  = "Base/**.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
